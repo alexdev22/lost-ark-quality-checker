@@ -1,10 +1,8 @@
 {
-  "homepage": "https://alexdev22.github.io/lost-ark-quality-checker",
   "name": "lost-ark-vite",
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "predeploy": "vite build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
