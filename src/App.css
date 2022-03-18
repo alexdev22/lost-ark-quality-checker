@@ -1,0 +1,39 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#root {
+  width: 50%;
+}
+.App {
+  display: flex;
+  flex-direction: row;
+  min-width: 100%;
+}
+
+.buttons-container {
+  margin-top: 1rem;
+}
+
+.result-container p {
+  margin: 0.25rem;
+}
+
+.engravings-container,
+.stats-container,
+.result-container {
+  min-width: 33%;
+}
+.engraving {
+  text-transform: capitalize;
+}
+
+.stats-container div {
+  text-transform: capitalize;
+}
+
+.result-container p::first-letter {
+  text-transform: capitalize;
+}
