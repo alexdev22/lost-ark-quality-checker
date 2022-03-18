@@ -1,11 +1,15 @@
 {
+  "homepage": "https://alexdev22.github.io/lost-ark-quality-checker",
   "name": "lost-ark-vite",
   "private": true,
   "version": "0.0.0",
   "scripts": {
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
+
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -13,6 +17,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
+    "gh-pages": "^3.2.3",
     "vite": "^2.8.0"
   }
 }
