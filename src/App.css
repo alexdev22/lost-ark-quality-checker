@@ -1,33 +1,48 @@
 body {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: rgb(88, 88, 88);
 }
-#root {
-  width: 50%;
-}
+
 .App {
   display: flex;
-  flex-direction: row;
-  min-width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
 }
 
+input[type="checkbox"] {
+  border: 5px solid coral;
+}
 .buttons-container {
   margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
 }
-
+button {
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.crossed {
+  text-decoration: underline;
+}
 .result-container p {
   margin: 0.25rem;
 }
-
 .engravings-container,
-.stats-container,
-.result-container {
-  min-width: 33%;
+.stats-container {
+  display: flex;
+  flex-wrap: wrap;
 }
-.engraving {
+
+.engravings {
   text-transform: capitalize;
+  cursor: pointer;
+  margin: 0.75rem;
+  font-weight: bold;
 }
 
 .stats-container div {
@@ -36,4 +51,18 @@ body {
 
 .result-container p::first-letter {
   text-transform: capitalize;
+}
+
+.classes-result-container {
+  margin-top: 5rem;
+  display: flex;
+}
+
+.class-result {
+  padding: 1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.container {
+  text-align: center;
 }

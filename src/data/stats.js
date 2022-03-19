@@ -1,1 +1,1 @@
-export const stats = ['crit', 'swiftness', 'domination', 'specialization']
+export const stats = ['crit', 'swiftness', 'domination', 'specialization', 'expertise']
